@@ -104,3 +104,18 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+
+
+
+@theme {
+	@keyframes shine {
+	  0% {
+		background-position: 100%;
+	  }
+	  100% {
+		background-position: -100%;
+	  }
+	}
+
+	--animate-shine: shine 5s linear infinite;
+}
