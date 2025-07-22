@@ -65,6 +65,6 @@ export let values: string[] = []`);
 	<h3 class="font-medium mt-4">Converted Output</h3>
 	<pre
 		class="bg-gray-100 dark:bg-neutral-900 text-sm p-4 rounded whitespace-pre-wrap border border-gray-300">
-{output}
-</pre>
+		{output}
+	</pre>
 </div>
